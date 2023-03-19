@@ -1,0 +1,28 @@
+{
+  "name": "attson/dynamic-proxy",
+  "autoload": {
+    "psr-4": {
+      "Attson\\DynamicProxy\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Attson\\DynamicProxy\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "attson",
+      "email": "attson1@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^9.45"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.4",
+    "orchestra/testbench": "^7.0",
+    "phpunit/phpunit": ">=9.5"
+  }
+}
